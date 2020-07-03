@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "MyStudioApp",
+  "short_name": "MyStudioApp",
+  "version": "com.fpt.MyStudioApp",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "author": "Apache Cordova Team",
+  "icons": [],
+  "start_url": "Login.html"
+}
