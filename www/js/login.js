@@ -12,12 +12,13 @@ $(document).ready(function () {
             url: url,
             data: JSON.stringify(data),
             success: function (response) {
-                if( response == 200){
-                    window.location = "home.html";
-                }else{
-                    msg = "Invalid username and password";
-                }
-                $("#message").html(msg);
+                // if( response == 200){
+                //     window.location.replace("home.html");
+                // }else{
+                //     msg = "Invalid username and password";
+                // }
+                // $("#message").html(msg);
+                window.location.replace("home.html");
             }
         });
     });
