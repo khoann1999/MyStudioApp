@@ -1,4 +1,4 @@
-var url = "https://localhost:44368/api/Accounts"
+var url = "https://mystudiowebapi.conveyor.cloud/api/Accounts"
 $(document).ready(function () {
     $("#login").click(function (e) { 
         e.preventDefault();
