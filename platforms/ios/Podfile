@@ -2,7 +2,7 @@
 
 platform :ios, '10.0'
 
-target 'D:\Users\Source\Cordova\MyStudioApp\platforms\ios\HelloCordova' do
-	project 'D:\Users\Source\Cordova\MyStudioApp\platforms\ios\HelloCordova.xcodeproj'
+target 'D:\Users\Source\Cordova\MyStudioApp\platforms\ios\MyStudioApp' do
+	project 'D:\Users\Source\Cordova\MyStudioApp\platforms\ios\MyStudioApp.xcodeproj'
 
 end
