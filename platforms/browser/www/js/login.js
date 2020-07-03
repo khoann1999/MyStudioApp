@@ -17,8 +17,11 @@ $(document).ready(function () {
                 // }else{
                 //     msg = "Invalid username and password";
                 // }
-                // $("#message").html(msg);
-                window.location.replace("home.html");
+                $("#message").html(JSON.stringify(response.username));
+                //window.location.replace("home.html");
+            },
+            error: function (response){
+                $("#message").html(JSON.stringify(response));
             }
         });
     });
